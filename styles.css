@@ -1,66 +1,75 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|VT323');
-body{
-  background-color: black;
+@import url("https://fonts.googleapis.com/css?family=Lato:300|VT323");
+body {
+  background-color: #111111;
 }
-a, a:visited{
-  color: lime;
-  text-decoration: none;
+nav a,
+nav a:visited {
   font-size: 30px;
-  font-family: 'VT323', monospace;
-  padding-left: 10px;
-}
-a:hover{
-  text-decoration: underline;
 }
 
-.container{
+a,
+a:visited {
+  font-family: "VT323", monospace;
+  padding-left: 10px;
+  color: #a6e22e;
+  text-decoration: none;
+  padding: 0;
+}
+a:hover {
+  text-decoration: underline;
+  color: #111111;
+  background-color: #a6e22e;
+}
+.container {
   text-align: center;
   padding-top: 5%;
 }
-.content{
-  font-family: 'Lato', sans-serif;
+.content {
+  font-family: "Lato", sans-serif;
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 10px;
   font-size: 20px;
-  text-indent: 20px;
 }
-p{
-  font-family: 'Lato', sans-serif;
+.heading {
+  text-align: center;
+}
+p {
+  font-family: "Lato", sans-serif;
   line-height: 24px;
-  color: lime;
+  color: #a6e22e;
 }
-h1{
+h1 {
   text-align: center;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 45px;
-  color: lime;
+  color: #a6e22e;
 }
-h2{
-  text-align: center;
-  font-family: 'VT323', monospace;
+h2 {
+  text-align: left;
+  font-family: "VT323", monospace;
   font-size: 35px;
-  color: lime;
+  color: #a6e22e;
 }
-h3{
+h3 {
   text-align: center;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 30px;
 }
-footer{
+footer {
   text-align: center;
   align-self: baseline;
 }
-nav{
+nav {
   padding-bottom: 5%;
 }
-hr{
-  box-sizing:content-box;
-  height:0;
-  overflow:visible;
-  color: lime;
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  color: #a6e22e;
 }
-.footer{
+.footer {
   font-size: 20px;
   width: 100%;
   align-items: center;
