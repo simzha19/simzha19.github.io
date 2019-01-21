@@ -1,4 +1,4 @@
-# blackdeath1098.github.io
+# szhang.us
 My Personal Website
 
 Created by Simon Zhang
