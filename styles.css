@@ -69,8 +69,26 @@ hr {
   overflow: visible;
   color: #a6e22e;
 }
-.footer {
-  font-size: 20px;
+footer {
+  font-size: 26px;
   width: 100%;
   align-items: center;
+}
+footer p{
+  font-size: 26px;
+}
+@media (max-width: 600px){
+  nav a,
+  nav a:visited {
+    font-size: 50px;
+    display: block;
+    margin: 0% 30%;
+    text-align: left;
+  }
+  .content {
+    padding-left: 1%;
+    padding-right: 0;
+    padding-top: 10px;
+    font-size: 20px;
+  }
 }
