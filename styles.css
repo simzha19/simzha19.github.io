@@ -77,7 +77,7 @@ footer {
 footer p{
   font-size: 26px;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
   nav a,
   nav a:visited {
     font-size: 50px;
