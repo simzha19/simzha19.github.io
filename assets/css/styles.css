@@ -95,21 +95,7 @@ footer {
 footer p{
   font-size: 20px;
 }
-@media (max-width: 900px){
-  nav a,
-  nav a:visited {
-    font-size: 50px;
-    display: block;
-    margin: 0% 15%;
-    text-align: left;
-  }
-  .content {
-    padding-left: 1%;
-    padding-right: 0;
-    padding-top: 10px;
-    font-size: 20px;
-  }
-}
+
 canvas{
   border: 1px solid #a6e22e;
 }
