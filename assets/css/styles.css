@@ -33,8 +33,8 @@ a:hover {
 }
 .content {
   font-family: 'Fira Code', sans-serif;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 10px;
   font-size: 20px;
 }
@@ -57,6 +57,7 @@ h1 {
   font-family: "VT323", monospace;
   font-size: 45px;
   color: #a6e22e;
+  margin-top: 100%;
 }
 h2 {
   text-align: left;
@@ -90,7 +91,7 @@ footer {
 footer p{
   font-size: 20px;
 }
-@media (max-width: 768px){
+@media (max-width: 900px){
   nav a,
   nav a:visited {
     font-size: 50px;
@@ -105,7 +106,6 @@ footer p{
     font-size: 20px;
   }
 }
-
 canvas{
   border: 1px solid #a6e22e;
 }
