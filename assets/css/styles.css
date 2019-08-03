@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300|VT323");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:700|VT323");
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 body {
   background-color: #111111;
@@ -30,13 +30,13 @@ a:hover {
 }
 .container {
   text-align: center;
-  margin-top:
+  margin-top: 8%;
 }
 .content {
   font-family: 'Fira Code', sans-serif;
   display: block;
   margin: 0 1rem;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 .heading {
@@ -66,7 +66,7 @@ h1 {
 h2 {
   text-align: left;
   font-family: "VT323", monospace;
-  font-size: 35px;
+  font-size: 45px;
   color: #a6e22e;
 }
 h3 {
@@ -89,11 +89,15 @@ hr {
 }
 footer {
   font-size: 26px;
-
   align-items: center;
 }
+#quote{
+  font-family: 'Fira Code', sans-serif;
+}
 footer p{
-  font-size: 20px;
+  margin-top: 5%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
 }
 
 canvas{

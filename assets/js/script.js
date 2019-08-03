@@ -4,7 +4,6 @@ var todaysQuote;
 
 window.addEventListener('load', function(){
 
-  todaysQuote = '"Bigger projects coming soon"'
+  todaysQuote = '"How can I be brr around LA coast?" ~ frank ocean'
   document.getElementById('quote').innerHTML = todaysQuote;
-  console.log("success");
 });
