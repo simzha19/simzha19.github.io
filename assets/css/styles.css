@@ -110,3 +110,20 @@ canvas{
 #quote{
   font-size: 24px;
 }
+b.USC-red{
+  color: #E22E4C;
+  font-weight: normal;
+}
+
+b.USC-gold{
+  font-weight: normal;
+  color: #FEB95F;
+}
+b.Sterling-red{
+  font-weight: normal;
+  color: #ed1c24;
+}
+b.Columbia-blue{
+  font-weight: normal;
+  color:#75AADB;
+}
