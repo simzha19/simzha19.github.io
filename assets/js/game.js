@@ -16,6 +16,3 @@ let paddle = new Paddle(GAME_WIDTH, GAME_HEIGHT);
 
 paddle.draw(ctx);
 
-
-
-https://discordapp.com/channels/533422262460874762/533422262460874765/536779017769058304
