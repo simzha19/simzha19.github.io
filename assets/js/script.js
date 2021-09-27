@@ -4,6 +4,6 @@ var todaysQuote;
 
 window.addEventListener('load', function(){
 
-  todaysQuote = '"How can I be brr around LA coast?" ~ frank ocean'
+  todaysQuote = '"Laughed and he laughed, danced and he danced"'
   document.getElementById('quote').innerHTML = todaysQuote;
 });
