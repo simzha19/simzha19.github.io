@@ -4,6 +4,6 @@ var todaysQuote;
 
 window.addEventListener('load', function(){
 
-  todaysQuote = '"Laughed and he laughed, danced and he danced"'
+  todaysQuote = '"All the good days of the views I love aint never been so clear"'
   document.getElementById('quote').innerHTML = todaysQuote;
 });
