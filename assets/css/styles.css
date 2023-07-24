@@ -33,20 +33,19 @@ a:hover {
   margin-top: 8%;
 }
 .content {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   display: block;
   margin: 0 1rem;
   font-size: 18px;
-
 }
-li a{
+li a {
   font-size: 24px;
 }
 .heading {
   text-align: center;
 }
 p {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   line-height: 24px;
   color: #a6e22e;
   display: block;
@@ -54,9 +53,8 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-
 }
-ul{
+ul {
   color: #a6e22e;
 }
 h1 {
@@ -64,7 +62,6 @@ h1 {
   font-family: "VT323", monospace;
   font-size: 45px;
   color: #a6e22e;
-
 }
 h2 {
   text-align: left;
@@ -95,39 +92,39 @@ footer {
   font-size: 26px;
   align-items: center;
 }
-#quote{
-  font-family: 'Fira Code', sans-serif;
+#quote {
+  font-family: "Fira Code", sans-serif;
 }
-footer p{
+footer p {
   margin-top: 5%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 18px;
 }
 
-canvas{
+canvas {
   border: 1px solid #a6e22e;
 }
-#quote{
+#quote {
   font-size: 24px;
 }
-b.USC-red{
-  color: #E22E4C;
+b.USC-red {
+  color: #e22e4c;
   font-weight: normal;
 }
 
-b.USC-gold{
+b.USC-gold {
   font-weight: normal;
-  color: #FEB95F;
+  color: #feb95f;
 }
-b.Sterling-red{
+b.Sterling-red {
   font-weight: normal;
   color: #ed1c24;
 }
-b.Columbia-blue{
+b.Columbia-blue {
   font-weight: normal;
-  color:#75AADB;
+  color: #75aadb;
 }
-b.Sailpoint-blue{
-  font-weight:normal;
+b.Sailpoint-blue {
+  font-weight: normal;
   color: #023197;
 }
