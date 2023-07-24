@@ -38,8 +38,13 @@ a:hover {
   margin: 0 1rem;
   font-size: 18px;
 }
+<<<<<<< HEAD
 li a {
   font-size: 24px;
+=======
+li a{
+  font-size: 26px;
+>>>>>>> 965d3eb66cd9b0b22871377a7a60d9c49b96beed
 }
 .heading {
   text-align: center;
