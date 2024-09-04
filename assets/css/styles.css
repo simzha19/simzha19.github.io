@@ -126,5 +126,8 @@ b.Columbia-blue {
 }
 b.Sailpoint-blue {
   font-weight: normal;
-  color: #023197;
+  
+  background-color: #023197;
+  padding-left: 4px;
+  padding-right: 4px;
 }
