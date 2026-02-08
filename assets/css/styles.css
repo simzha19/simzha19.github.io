@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:700|VT323");
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:700|VT323);
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 body {
-  background-color: #111111;
+  background-color: #111;
   max-width: 55rem;
   margin: 0 auto;
   display: flex;
@@ -14,18 +14,25 @@ nav a,
 nav a:visited {
   font-size: 45px;
 }
-
+.inline,
 a,
 a:visited {
-  font-family: "VT323", monospace;
-  padding-left: 25px;
-  margin-right: 15px;
   color: #a6e22e;
   text-decoration: none;
   padding: 0;
+  font-family: "VT323", monospace;
+}
+a,
+a:visited {
+  margin-right: 15px;
+}
+.inline {
+  display: inline;
+  font-size: 26px;
+  margin: 0;
 }
 a:hover {
-  color: #111111;
+  color: #111;
   background-color: #a6e22e;
 }
 .container {
@@ -44,85 +51,82 @@ li a {
 .heading {
   text-align: center;
 }
+#quote,
 p {
   font-family: "Fira Code", sans-serif;
+}
+p {
   line-height: 24px;
-  color: #a6e22e;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
+h1,
+h2,
+p,
 ul {
   color: #a6e22e;
 }
-h1 {
-  text-align: center;
-  font-family: "VT323", monospace;
+h1,
+h2 {
   font-size: 45px;
-  color: #a6e22e;
 }
 h2 {
   text-align: left;
-  font-family: "VT323", monospace;
-  font-size: 45px;
-  color: #a6e22e;
 }
+footer,
+h1,
 h3 {
   text-align: center;
+}
+h1,
+h2,
+h3 {
   font-family: "VT323", monospace;
+}
+h3 {
   font-size: 30px;
 }
 footer {
-  text-align: center;
   align-self: baseline;
+  font-size: 26px;
+  align-items: center;
 }
 nav {
   padding-bottom: 5%;
 }
+canvas,
 hr {
   border: 1px solid #a6e22e;
 }
-footer {
-  font-size: 26px;
-  align-items: center;
-}
 #quote {
-  font-family: "Fira Code", sans-serif;
+  font-size: 24px;
 }
 footer p {
   margin-top: 5%;
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
 }
-
-canvas {
-  border: 1px solid #a6e22e;
-}
-#quote {
-  font-size: 24px;
-}
 b.USC-red {
   color: #e22e4c;
-  font-weight: normal;
+  font-weight: 400;
 }
-
+b.Sterling-red,
 b.USC-gold {
-  font-weight: normal;
+  font-weight: 400;
   color: #feb95f;
 }
 b.Sterling-red {
-  font-weight: normal;
   color: #ed1c24;
 }
 b.Columbia-blue {
-  font-weight: normal;
+  font-weight: 400;
   color: #75aadb;
 }
 b.Sailpoint-blue {
-  font-weight: normal;
-  
+  font-weight: 400;
   background-color: #023197;
   padding-left: 4px;
   padding-right: 4px;
