@@ -21,6 +21,7 @@ a:visited {
   text-decoration: none;
   padding: 0;
   font-family: "VT323", monospace;
+  line-height: normal;
 }
 a,
 a:visited {
